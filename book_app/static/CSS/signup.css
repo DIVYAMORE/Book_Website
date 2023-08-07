@@ -1,0 +1,30 @@
+
+  
+.container{
+  width:100%;
+  margin: auto;
+  background-color:bisque;
+  text-align: center;
+
+}
+.signup-text{
+    text-align: center;
+    margin:auto;
+}
+.texts:focus{
+  outline: none;
+  box-shadow: none;
+}
+.texts{
+margin:3px
+}
+
+.btn{
+    margin-top: 2%;
+}
+
+@media (max-width:760px) {
+ .signup-text{
+   display: flex;
+ } 
+}

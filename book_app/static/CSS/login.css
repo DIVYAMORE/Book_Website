@@ -1,0 +1,32 @@
+.navbar-brand{
+    margin-left: 15px;
+  }
+  .nav-item{
+    margin: 0 20px;
+  }
+  .search{
+    text-align: center;
+    margin-top: 7px;
+  }
+.container{
+    width:50%;
+    margin: auto;
+    margin-top: 100px;
+    background-color:bisque;
+    text-align: center;
+}
+
+.login-text{
+    text-align: center;
+    margin: 5% 30%;
+}
+.texts:focus{
+    outline: none;
+    box-shadow: none;
+}
+.texts{
+margin-bottom: 0.5%;
+}
+.btn{
+    width: 190px;
+}

@@ -1,0 +1,176 @@
+#home-page-carousel{
+   
+    /* margin-left: 10px; */
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+#recommendation{
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  height: 10%;
+}
+
+#video{
+  text-align: center;
+  padding: 2%;
+}
+#discussion_forum{
+  margin: 5% 2% 2% 5%;
+  text-align: center;
+  width: 20%;
+  background-color: bisque;
+}
+
+#subsection{
+  text-align: center;
+  width: 100%;
+  background-color: #ebdddd;
+  padding-bottom: 15px;
+}
+
+.flex{
+display: flex;
+}
+
+.avatar{
+  border-radius: 50%;
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+}
+.quote{
+  text-align: center;
+  margin: auto;
+}
+
+.home{
+  margin-top: 10px;
+
+width: 80%;
+
+margin: auto;
+
+background-color: #EFEFEF;
+
+}
+
+.content{
+  text-decoration: none;
+  color: black;
+}
+/* 
+.carousel-inner{
+  
+  } */
+  .slides{
+    text-align: center;
+    padding: 12%;
+  }
+
+  .cimg{
+    height: 250px;
+    width: 600px;
+    position: relative;
+    opacity: 50%;
+  }
+  .cimgcontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  /*RECOMMENDATIONS: */
+  
+  body { font-family: sans-serif; }
+
+  .scene {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #CCC;
+    margin: 40px 0;
+    perspective: 600px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .card__face--front {
+    background: red;
+  }
+  
+  .card__face--back {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  
+
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+    display: none;
+}
+
+
+
+    /* FOOTER */
+.footer{
+  text-align: center;
+  padding: 1%;
+  background-color:lightblue;
+}
+.footer-img{
+  margin: 2% 3% 1% ;
+  color: black;
+}
+.footer-img:hover{
+  color: gray;
+}
+
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 10%;
+
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 10%;
+  height: 1px;
+  margin: 10px;
+  border-radius: 0;
+}
+
+ol.carousel-indicators li.active {
+  background: rgb(0, 0, 0);
+}
